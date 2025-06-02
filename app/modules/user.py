@@ -1,6 +1,9 @@
-from app.models.user import User
 from faker import Faker
+
+from app.models.user import User
+
 faker = Faker()
+
 
 def get_all_users():
     """Simulating a database connection to retrieve all users."""

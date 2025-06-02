@@ -3,6 +3,7 @@
 {% block title %}Users{% endblock %}
 
 {% block content %}
+  <h2>Listing all users:</h2>
   <ul>
     {% for user in users %}
       <li>{{ user.name }} - {{ user.email }}</li>
